@@ -37,8 +37,8 @@ Session(app)
 db = SQL("postgres://aarrlrimwknvwa:65d814525ce396dc0b5815823720a9bd4bbc1bd823236d5cb9ac2253d89e9b84@ec2-52-202-22-140.compute-1.amazonaws.com:5432/d2b1r90mub58s9")
 
 # Make sure API key is set
-if not os.environ.get("API_KEY"):
-    raise RuntimeError("API_KEY not set")
+#if not os.environ.get("API_KEY"):
+    #raise RuntimeError("API_KEY not set")
 
 
 @app.route("/")
